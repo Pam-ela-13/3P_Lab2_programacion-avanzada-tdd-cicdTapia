@@ -19,4 +19,9 @@ public class PedidoService {
 
         return pedidoRepository.findByEstado(estado);
     }
+
+    public Pedido crearPedido(Pedido pedido) {
+
+        return pedidoRepository.save(pedido);
+    }
 }

@@ -1,2 +1,3 @@
+com\tapia\lab1\service\PedidoServiceTest.class
 com\tapia\lab1\repository\PedidoRepositoryTest.class
 com\tapia\lab1\controller\PedidoControllerTest.class
