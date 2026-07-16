@@ -11,17 +11,14 @@ public class PedidoService {
     private final PedidoRepository pedidoRepository;
 
     public PedidoService(PedidoRepository pedidoRepository) {
-
         this.pedidoRepository = pedidoRepository;
     }
 
     public List<Pedido> obtenerPorEstado(String estado) {
-
         return pedidoRepository.findByEstado(estado);
     }
 
     public Pedido crearPedido(Pedido pedido) {
-
         return pedidoRepository.save(pedido);
     }
 }
